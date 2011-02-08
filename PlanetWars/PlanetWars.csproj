@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0BFF08EE-C266-47D5-BBAA-1112D3FAE0C0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlanetWars</RootNamespace>
+    <AssemblyName>PlanetWars</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fleet.cs" />
+    <Compile Include="MyBot.cs" />
+    <Compile Include="Planet.cs" />
+    <Compile Include="PlanetWars.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="example_bots\BullyBot.jar" />
+    <Content Include="example_bots\BullyBot.java" />
+    <Content Include="example_bots\DualBot.jar" />
+    <Content Include="example_bots\DualBot.java" />
+    <Content Include="example_bots\ExpandBot.java" />
+    <Content Include="example_bots\Fleet.java" />
+    <Content Include="example_bots\Planet.java" />
+    <Content Include="example_bots\PlanetWars.java" />
+    <Content Include="example_bots\ProspectorBot.jar" />
+    <Content Include="example_bots\ProspectorBot.java" />
+    <Content Include="example_bots\RageBot.jar" />
+    <Content Include="example_bots\RageBot.java" />
+    <Content Include="example_bots\RandomBot.jar" />
+    <Content Include="example_bots\RandomBot.java" />
+    <Content Include="maps\map1.txt" />
+    <Content Include="maps\map10.txt" />
+    <Content Include="maps\map100.txt" />
+    <Content Include="maps\map11.txt" />
+    <Content Include="maps\map12.txt" />
+    <Content Include="maps\map13.txt" />
+    <Content Include="maps\map14.txt" />
+    <Content Include="maps\map15.txt" />
+    <Content Include="maps\map16.txt" />
+    <Content Include="maps\map17.txt" />
+    <Content Include="maps\map18.txt" />
+    <Content Include="maps\map19.txt" />
+    <Content Include="maps\map2.txt" />
+    <Content Include="maps\map20.txt" />
+    <Content Include="maps\map21.txt" />
+    <Content Include="maps\map22.txt" />
+    <Content Include="maps\map23.txt" />
+    <Content Include="maps\map24.txt" />
+    <Content Include="maps\map25.txt" />
+    <Content Include="maps\map26.txt" />
+    <Content Include="maps\map27.txt" />
+    <Content Include="maps\map28.txt" />
+    <Content Include="maps\map29.txt" />
+    <Content Include="maps\map3.txt" />
+    <Content Include="maps\map30.txt" />
+    <Content Include="maps\map31.txt" />
+    <Content Include="maps\map32.txt" />
+    <Content Include="maps\map33.txt" />
+    <Content Include="maps\map34.txt" />
+    <Content Include="maps\map35.txt" />
+    <Content Include="maps\map36.txt" />
+    <Content Include="maps\map37.txt" />
+    <Content Include="maps\map38.txt" />
+    <Content Include="maps\map39.txt" />
+    <Content Include="maps\map4.txt" />
+    <Content Include="maps\map40.txt" />
+    <Content Include="maps\map41.txt" />
+    <Content Include="maps\map42.txt" />
+    <Content Include="maps\map43.txt" />
+    <Content Include="maps\map44.txt" />
+    <Content Include="maps\map45.txt" />
+    <Content Include="maps\map46.txt" />
+    <Content Include="maps\map47.txt" />
+    <Content Include="maps\map48.txt" />
+    <Content Include="maps\map49.txt" />
+    <Content Include="maps\map5.txt" />
+    <Content Include="maps\map50.txt" />
+    <Content Include="maps\map51.txt" />
+    <Content Include="maps\map52.txt" />
+    <Content Include="maps\map53.txt" />
+    <Content Include="maps\map54.txt" />
+    <Content Include="maps\map55.txt" />
+    <Content Include="maps\map56.txt" />
+    <Content Include="maps\map57.txt" />
+    <Content Include="maps\map58.txt" />
+    <Content Include="maps\map59.txt" />
+    <Content Include="maps\map6.txt" />
+    <Content Include="maps\map60.txt" />
+    <Content Include="maps\map61.txt" />
+    <Content Include="maps\map62.txt" />
+    <Content Include="maps\map63.txt" />
+    <Content Include="maps\map64.txt" />
+    <Content Include="maps\map65.txt" />
+    <Content Include="maps\map66.txt" />
+    <Content Include="maps\map67.txt" />
+    <Content Include="maps\map68.txt" />
+    <Content Include="maps\map69.txt" />
+    <Content Include="maps\map7.txt" />
+    <Content Include="maps\map70.txt" />
+    <Content Include="maps\map71.txt" />
+    <Content Include="maps\map72.txt" />
+    <Content Include="maps\map73.txt" />
+    <Content Include="maps\map74.txt" />
+    <Content Include="maps\map75.txt" />
+    <Content Include="maps\map76.txt" />
+    <Content Include="maps\map77.txt" />
+    <Content Include="maps\map78.txt" />
+    <Content Include="maps\map79.txt" />
+    <Content Include="maps\map8.txt" />
+    <Content Include="maps\map80.txt" />
+    <Content Include="maps\map81.txt" />
+    <Content Include="maps\map82.txt" />
+    <Content Include="maps\map83.txt" />
+    <Content Include="maps\map84.txt" />
+    <Content Include="maps\map85.txt" />
+    <Content Include="maps\map86.txt" />
+    <Content Include="maps\map87.txt" />
+    <Content Include="maps\map88.txt" />
+    <Content Include="maps\map89.txt" />
+    <Content Include="maps\map9.txt" />
+    <Content Include="maps\map90.txt" />
+    <Content Include="maps\map91.txt" />
+    <Content Include="maps\map92.txt" />
+    <Content Include="maps\map93.txt" />
+    <Content Include="maps\map94.txt" />
+    <Content Include="maps\map95.txt" />
+    <Content Include="maps\map96.txt" />
+    <Content Include="maps\map97.txt" />
+    <Content Include="maps\map98.txt" />
+    <Content Include="maps\map99.txt" />
+    <Content Include="tools\PlayGame.jar" />
+    <Content Include="tools\ShowGame.jar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>java -jar C:\Projects\PlanetWars\tools\PlayGame.jar C:\Projects\PlanetWars\maps\map7.txt 1000 1000 log.txt "C:\Users\John\Documents\Visual Studio 2010\Projects\PlanetWars\PlanetWars\bin\Debug\PlanetWars.exe" "C:\Projects\PlanetWars\PlanetWars.exe" | java -jar C:\Projects\PlanetWars\tools/ShowGame.jar</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
